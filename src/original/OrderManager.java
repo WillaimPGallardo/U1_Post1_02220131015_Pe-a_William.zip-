@@ -25,4 +25,27 @@ public class OrderManager {
     System.out.println("EMAIL a " + customer + 
     ": Su pedido " + orderId + " ha sido creado."); 
 }
+    // Calcular impuestos 
+    public double calculateTax(String orderId) { 
+    for (String[] o : orders) { 
+    if (o[0].equals(orderId)) { 
+    double total = Double.parseDouble(o[3]); 
+    return total * 0.19;  // IVA 19% 
+    } 
+    } 
+    return 0; 
+    } 
+    // Generar reporte 
+    public String generateReport() { 
+    StringBuilder sb = new StringBuilder(); 
+    sb.append("=== REPORTE DE PEDIDOS ===\n"); 
+    double grandTotal = 0; 
+    for (String[] o : orders) { 
+    sb.append(o[0] + " | " + o[1] + " | $" + o[3] + "\n"); 
+    grandTotal += Double.parseDouble(o[3]); 
+    } 
+    sb.append("TOTAL: $" + grandTotal); 
+    System.out.println(sb.toString()); 
+    return sb.toString(); 
+    } 
 }
