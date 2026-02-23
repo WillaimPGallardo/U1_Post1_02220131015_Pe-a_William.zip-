@@ -1,4 +1,4 @@
-<img width="1903" height="945" alt="image" src="https://github.com/user-attachments/assets/2de5f2a3-f003-44de-98a7-3a34b82f9654" />Violación del SRP (Responsabilidad Única): La clase OrderManager no tiene una sola responsabilidad, ya que crea pedidos, calcula descuentos e impuestos, genera reportes, guarda en archivo y envía notificaciones. Esto hace que tenga varias razones para cambiar.
+Violación del SRP (Responsabilidad Única): La clase OrderManager no tiene una sola responsabilidad, ya que crea pedidos, calcula descuentos e impuestos, genera reportes, guarda en archivo y envía notificaciones. Esto hace que tenga varias razones para cambiar.
 
 Violación del OCP (Abierto/Cerrado): La lógica de descuentos está dentro del método createOrder con condicionales. Si se quiere agregar un nuevo tipo de descuento, se debe modificar la clase en lugar de extenderla.
 
