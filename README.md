@@ -8,3 +8,10 @@ Violación del ISP (Segregación de Interfaces): La clase agrupa funciones disti
 
 Primer Checkpoint
 <img width="1050" height="521" alt="image" src="https://github.com/user-attachments/assets/ff329467-f97a-46bf-a5a0-0ad04d74bd27" />
+
+Segundo Checkpoint: Las clases DiscountStrategy, StandardDiscount y VIPDiscount compilan 
+correctamente.
+
+<img width="682" height="406" alt="image" src="https://github.com/user-attachments/assets/349332c0-c228-496f-abe3-80e1a0ac304b" />
+<img width="696" height="384" alt="image" src="https://github.com/user-attachments/assets/661d18de-2a23-44c6-94d3-4775f18ac76e" />
+<img width="697" height="359" alt="image" src="https://github.com/user-attachments/assets/9f311990-2490-468c-bdb3-92d6f4711e04" />
