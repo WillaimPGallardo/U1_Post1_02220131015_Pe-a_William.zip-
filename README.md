@@ -21,3 +21,8 @@ Tercer Checkpoint: OrderService compila y funciona con las dependencias inyectad
 Pruebe con un main() que instancie todo. 
 
 <img width="709" height="977" alt="image" src="https://github.com/user-attachments/assets/cb614393-3f05-4fd0-b9e9-a8483c3791ec" />
+
+Cuarto Checkpoint: La aplicación compila y ejecuta mostrando la creación de 3 pedidos con 
+diferentes estrategias de descuento. Tome captura de pantalla de la salida.
+
+<img width="1912" height="1009" alt="image" src="https://github.com/user-attachments/assets/b38602d1-eb29-47c0-91bb-f6447af08415" />
